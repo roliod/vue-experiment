@@ -7,21 +7,21 @@
 </template>
 
 <script>
-  import Nav from './Nav';
+import Nav from "./Nav";
 
-  export default {
-    name: 'About',
-    data() {
-      return {
-        msg: 'About Us'
-      }
-    },
-    components: {
-      Nav
-    }
+export default {
+  name: "About",
+  data() {
+    return {
+      msg: "About Us"
+    };
+  },
+  components: {
+    Nav
   }
+};
 </script>
 
 <style scoped>
-  @import '../assets/css/app.css';  
+@import "../assets/css/app.css";
 </style>

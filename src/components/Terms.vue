@@ -6,21 +6,21 @@
 </template>
 
 <script>
-  import Nav from './Nav';
+import Nav from "./Nav";
 
-  export default {
-    name: 'Terms',
-    data() {
-      return {
-        msg: 'Terms & Conditions'
-      }
-    },
-    components: {
-      Nav
-    }
+export default {
+  name: "Terms",
+  data() {
+    return {
+      msg: "Terms & Conditions"
+    };
+  },
+  components: {
+    Nav
   }
+};
 </script>
 
 <style scoped>
-  @import '../assets/css/app.css';  
+@import "../assets/css/app.css";
 </style>

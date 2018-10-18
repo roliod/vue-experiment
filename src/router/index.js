@@ -1,27 +1,27 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Home from '@/components/Home'
-import About from '@/components/About'
-import Terms from '@/components/Terms'
+import Vue from "vue";
+import Router from "vue-router";
+import Home from "@/components/Home";
+import About from "@/components/About";
+import Terms from "@/components/Terms";
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'Home',
+      path: "/",
+      name: "Home",
       component: Home
     },
     {
-      path: '/about',
-      name: 'About',
+      path: "/about",
+      name: "About",
       component: About
     },
     {
-      path: '/terms',
-      name: 'Terms',
+      path: "/terms",
+      name: "Terms",
       component: Terms
     }
   ]
-})
+});

@@ -7,22 +7,21 @@
 </template>
 
 <script>
-  import Nav from './Nav';
+import Nav from "./Nav";
 
-  export default {
-    name: 'Home',
-    data() {
-      return {
-        msg: 'Welcome Home'
-      }
-    },
-    components: {
-      Nav
-    }
+export default {
+  name: "Home",
+  data() {
+    return {
+      msg: "Welcome Home"
+    };
+  },
+  components: {
+    Nav
   }
+};
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  @import '../assets/css/app.css';
+@import "../assets/css/app.css";
 </style>

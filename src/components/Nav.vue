@@ -1,33 +1,33 @@
 <template>
   <ul>
     <li>
-    <a href="/">
-        Home
-    </a>
+      <a href="/">
+            Home
+        </a>
     </li>
     <li>
-    <a href="/about" target="_blank">
+      <a href="/about" target="_blank">
         <router-link to="/about">
-        About
+          About
         </router-link>
-    </a>
+      </a>
     </li>
     <li>
-    <a href="#" target="_blank">
+      <a href="#" target="_blank">
         <router-link to="/terms">
-        Terms
+          Terms
         </router-link>
-    </a>
+      </a>
     </li>
   </ul>
 </template>
 
 <script>
-  export default {
-    name: 'Nav'
-  }
+export default {
+  name: "Nav"
+};
 </script>
 
 <style scoped>
-  @import '../assets/css/app.css';  
+@import "../assets/css/app.css";
 </style>
